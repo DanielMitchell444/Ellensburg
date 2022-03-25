@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Ellensburg Parks and Rec Website</title>
+        <meta content="width=device-width,initial-scale=1" name="viewport">
+        <!--iF THE browser is Chrome-->
+        <link href="./CSS/styles.css" rel="stylesheet" type="text/css"/>
+    </head>
+
+
+    <body>
+        <header>
+            <!--Header-->
+            <section class="header">
+                <div class="header1">
+                    <a href="index.html"><img src="./Images/logo2_adobespark.png" alt="logo2_adobespark"></a>
+                </div>
+            </section>
+        </header>
+
+        <!--Body-->
+        <section class="about-center section center">
+            <article class="about">
+                <div class="btn-container">
+                    <button class="tab-btn active" data-id="Activities">Activities</button> 
+                    <button class="tab-btn" data-id="Venues">Venues</button> 
+                    <button class="tab-btn" data-id="Scheduling">Scheduling</button> 
+                    <button class="tab-btn" data-id="Contact">Contact</button>
+                </div>
+
+                <!--Content-->
+                <div class="about-content">
+                    <form class="main-form">
+                        <div class="content active" id="Home">
+                            <div class="main-content">
+                                <h3>Welcome to Ellensburg</h3>
+                                <p class="paragraph">Welcome to the Ellensburg Parks and Recreation departments website.<br>
+                                    This site allows you to reserve parks and venues for a variety of events.<br>
+                                <p>
+                                    <strong>Please click to the Activities tab to get started, then follow the tabs from left to right to complete the form.</strong><br>
+                                </p>
+                            </div>
+                        </div>
+
+                        <!--Content for activities-->
+                        <div class="content" id="Activities" data-id="1">
+                            <h2>Activities</h2>
+                            <p><strong>Please select a Activity Below. Once complete,go to the venues tab to select a venue.</strong></p>
+                            <div class="buttons">
+                                <button class="racketball-btn" name="racket" data-id="Racketball" required>Racketball</button>
+                                <button class="racketball-btn" data-id="Soccer" required >Soccer</button> 
+                                <button class="racketball-btn" data-id="Baseball" required>Baseball</button> 
+                                <button class="racketball-btn" data-id="Basketball" required>Basketball</button>
+                            </div>
+                        </div>
+
+                        <!--Content for Venues-->
+                        <div class="content" id="Venues" data-id="2">
+                            <h2>Venues</h2>
+                            <p><strong>Please select a Venue Below. Once complete, go to the Scheduling tab to reserve a time.</strong></p>
+                            <div class="venues-btns" 
+                                id="Venuesbtns">
+                                <button class="parks-btn" data-id="parks">Parks</button> 
+                                <button class="parks-btn" data-id="Gyms">Gyms</button> 
+                                <button class="parks-btn" data-id="Arenas">Arenas</button> 
+                                <button class="parks-btn" data-id="Courts">Courts</button>
+                            </div>
+                        </div>
+
+                        <!--Scheduling-->
+                        <div class="content" id="Scheduling" data-id="3">
+                            <h2>Scheduling</h2>
+                            <p>Please select a date and time in the textboxes below.</p>
+                            <p><strong>The date must be later than todays date and the time must be beltween 9am and 9pm in order for it to be accepted</strong></p>
+                            <div class="Select-btns">
+                                <input type="date" class="date" required=""> 
+                                <input type="time" class="time" min="09:00:00" max="21:00:00" required=""> 
+                                <button class="submit-date">Submit</button>
+                            </div>
+                        </div>
+
+                        <!--Content for home page-->
+                        <div class="content" id="Contact" data-id="4">
+                            <h2>Contact</h2>
+                            <div class="inputs">
+                                <input type="text" placeholder="first-name" id="first-namee" class="name1" name="name" minlength="10" maxlength="20">
+                                <p class="ErrorName"></p>
+                                <input required="" type="text" placeholder="last name" name="last-namee" class="last-name" minlength="10" maxlength="20">
+                                <p class="ErrorNamme"></p>
+                                <input type="tel" placeholder="Phone Number" name="phone" class="phone-number" required="" minlength="10" maxlength="12">
+                                <p class="ErrorNammee"></p>
+                                <input type="text" placeholder="Email Address" class="email" name="Email" required="">
+                                <p class="ErrorNammeee"></p>
+                                <input type="text" name="city" placeholder="City" class="city" required="" minlength="9" maxlength="10">
+                                <p class="errorCity"></p>
+                                <input type="submit" name="submit" value="Submit" class="submit-btn">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <script src="./Javascript/app.js"></script>
+            </article>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,666 @@
+:root{
+  --fallback-height: 1.2;
+}
+
+html,body{
+margin: 0;
+}
+
+*{
+ margin: 0;
+ padding: 0;
+}
+
+body{
+margin: 0;
+background: url('../Images/Document.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+width: 100vw;
+object-fit: cover;
+overflow-x: hidden;
+overflow-y: hidden;
+position: relative;
+}
+
+/* Header CSS */
+.header1{
+  background-color: #30A860;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.header1 img{
+  height: 210px;
+
+}
+
+img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+h1{
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+   flex-wrap: nowrap;
+   padding: 5px 5px 5px 5px;
+   text-align: center;
+   font-size: 32px;
+   position: relative;
+}
+
+h1 a{
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+
+h2{
+  color: black;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 0px;
+
+}
+
+ p{
+ margin-top: 20px;
+}
+
+
+
+
+/* Body CSS */
+.main-form{
+ border: 1px solid black;
+ background-color: white;
+ width: 800px;
+ height: 500px;
+ overflow-y: hidden;
+}
+
+.content p{
+  text-align: center;
+}
+
+
+.about-content{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+
+/* CSS for buttons */
+.btn-container{
+ margin: 0px;
+ display:flex;
+ justify-content: center;
+ align-items: center;
+}
+
+button{
+  width: 100%;
+  display: inline-block;
+  margin: 0px;
+  font-size: 20px;
+}
+
+
+
+
+
+.parks-btn:focus, .Gym-btn:focus, .Arena-btn:focus, .Courts-btn:focus{
+}
+
+
+
+.agree{
+ margin-top: 20px;
+}
+
+.tab-btn{
+ display: inline-block;
+ background-color: lightblue;
+ font-size: 22px;
+ color: black;
+ margin: -1px;
+ width: 202px;
+ height: 50px;
+ cursor: pointer;
+}
+
+
+
+
+/* CSS for home tab */
+.content p{
+text-align: center;
+font-size: 18px;
+font-weight: lighter;
+}
+
+.content{
+  padding: 0.5rem;
+}
+
+h3{
+  text-align: center;
+  font-size: 34px;
+}
+
+.content h3{
+ font-size: 34px;
+}
+
+
+.main-content a{
+  text-decoration: none;
+}
+
+.Home-btnss{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  width: 200px;
+  margin: 10px;
+}
+
+.Buttons{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+/* CSS for Activities tab */
+
+.activities-btn{
+ width: 600px;
+ font-size: 20px;
+ margin: 0;
+ padding: 0;
+ margin: -3px;
+}
+
+.buttons:active{
+  color: green;
+}
+
+.buttons{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.racketball-btn{
+  width: 100%;
+  height: 45px;
+  background-color: lightgray;
+  border: 1px solid black;
+  display: block;
+  margin-top: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.racketball-btn:focus{
+}
+
+
+/* Buttons for venues */
+
+
+
+p{
+  font-size: 24x;
+}
+
+
+.venues-btns{
+  margin-left: auto;
+  margin-right: auto;
+  width: 230px;
+  margin-top: 40px;
+}
+
+.highlight{
+  background-color: red;
+}
+
+.parks-btn{
+  width: 100%;
+  height: 45px;
+  background-color: lightgray;
+  border: 1px solid black;
+  display: block;
+  margin-top: 40px;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+
+/* CSS for Scheduling */
+
+input[type = "date"],
+input[type = "time"]{
+  width: 300px;
+  height: 50px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+label{
+  display: block;
+}
+
+.submit-date{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 50px;
+  border: 1px solid black;
+  background-color: lightgray;
+  margin-top: 80px;
+}
+
+
+
+/*CSS for contact page and inputs */
+input[type = "text"],
+input[type = "tel"]{
+  height: 40px;
+  padding: 8px;
+}
+.contactt_form{
+height: 800px;
+}
+
+.inputs{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+input[type = "text"]{
+  width: 400px; 
+  display: block;
+  padding: 8px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  height: 40px;
+  border: 1px solid black;
+  resize: vertical;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input[type = "tel"]{
+  width: 400px; 
+  display: block;
+  padding: 8px;
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  height: 40px;
+  box-sizing: border-box; 
+  border: 1px solid black;
+  resize: vertical;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.submit-btn{
+  width: 300px;
+  background-color: lightgray;
+  border: 1px solid black;
+  font-size: 20px;
+  height: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+
+/*Hide Content */
+.content {
+  display: none;
+}
+.tab-btn.active {
+  background: white;
+}
+.content.active {
+  display: block;
+}
+
+.Success{
+  display: block;
+}
+
+
+/*Media Queries */
+
+@media(min-width: 320px){
+  .buttons{
+    width: 330px;
+    height: 30px;
+  }
+
+  .main-form{
+    width: 800px;
+  }
+
+  .racketball-btn{
+    width: 230px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .main-content p{
+   line-height: 2;
+  }
+
+  .venues-btns{
+    width: 300px;
+  }
+
+  .parks-btn, .Gym-btn, .Arena-btn, .Courts-btn{
+    width: 230px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .Select-btns{
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+   
+  }
+  select{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 230px;
+  }
+}
+
+@media(min-width: 375px){
+  .buttons{
+    width: 330px;
+  }
+
+  .racketball-btn{
+    width: 230px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .submit-date{
+   margin-top: 35px;
+  }
+  .venues-btns{
+    width: 230px;
+  }
+
+  .inputs{
+    margin-top: 20px;
+  }
+
+  .main-content p{
+    line-height: 2;
+  }
+
+  .parks-btn, .Gym-btn, .Arena-btn, .Courts-btn{
+    width: 230px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  select{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 230px;
+  }
+
+
+}
+
+@media(min-width: 411px){
+  .submit-date{
+    margin-top: 60px;
+  }
+}
+
+@media(max-width: 360px){
+  .buttons{
+    width: 330px;
+  }
+
+  .racketball-btn{
+    width: 230px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .venues-btns{
+    width: 230px;
+  }
+
+  .main-content p{
+    line-height: 2;
+  }
+
+  .parks-btn, .Gym-btn, .Arena-btn, .Courts-btn{
+    width: 230px;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  
+  select{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 230px;
+  }
+
+  .inputs{
+    margin-top: 20px;
+  }
+
+  .submit-date{
+    margin-top: 30px;
+  }
+  
+}
+
+@media(min-width: 414px){
+  .buttons{
+    width: 330px;
+  }
+
+  .racketball-btn{
+    width: 230px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .venues-btns{
+    width: 230px;
+  }
+
+  .main-content p{
+    line-height: 2;
+  }
+
+  .inputs{
+    margin-top: 20px;
+  }
+
+  .parks-btn, .Gym-btn, .Arena-btn, .Courts-btn{
+    width: 230px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .submit-date{
+    margin-top: 60px;
+  }
+}
+
+ @media(min-width: 500px){
+   .inputs{
+     margin-top: 30px;
+   }
+
+   h2{
+    font-size: 42px;
+   }
+
+   .main-content h3{
+     font-size: 42px;
+   }
+
+    .main-content p{
+     line-height: 2.5;
+     vertical-align: top;
+   }
+
+   h3{
+     font-size: 42px;
+   }
+
+   .content h3{
+     font-size: 42px;
+   }
+
+   
+
+   input[type = "text"],
+   input[type = "tel"]{
+     margin-top: 30px;
+   }
+
+   input[type = "submit"]{
+
+   }
+   }
+
+   @media(min-width: 650px){
+     .racketball-btn{
+       width: 100%;
+     }
+
+    
+   }
+ 
+ @media(min-width: 1400px){
+   .racketball-btn{
+    width: 280px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   }
+   
+   .parks-btn{
+   width: 280px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   }
+
+   .venues-btns{
+     width: 300px;
+   }
+
+   
+   .inputs{
+     max-width: 100%;
+   }
+ 
+
+ .main-content p{
+ line-height: 3;
+ font-size: 20px;
+ }
+}
+
+strong, b{
+  font-weight: bold;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+
+  ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+
+
+/*Styling for firefox */
+@-moz-document url-prefix() {
+   .main-content p {
+      line-height: 2.8;
+  }
+
+  .inputs{
+    margin-top: 30px;
+  }
+
+  h2{
+   font-size: 42px;
+  }
+
+  .submit-btn{
+    margin-top: 20px;
+  }
+
+  .main-content h3{
+    font-size: 42px;
+  }
+
+  .venues-btns{
+    max-width: 100%;
+  }
+
+  .submit-date{
+    margin-top: 50px;
+  }
+}
+
