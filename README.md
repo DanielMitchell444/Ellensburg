@@ -12,4 +12,4 @@ In the about section of this GitHub Repo, you can find the link to the site. Ope
 
 The link to this website will also be posted at the bottom of this section.
 
-Link:  https://danielmitchell444.github.io/Ellensburg-Parks-and-Rec/
+Link:  https://danielmitchell444.github.io/Ellensburg/
