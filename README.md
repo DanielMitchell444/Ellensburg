@@ -13,3 +13,7 @@ In the about section of this GitHub Repo, you can find the link to the site. Ope
 The link to this website will also be posted at the bottom of this section.
 
 Link:  https://danielmitchell444.github.io/Parks-and-Rec/
+
+
+
+Bug: A bug occurs on the last section. You will not be able to submit your data and it will not say anything on the contact form section. This bug will be reviewed and fixed soon.
